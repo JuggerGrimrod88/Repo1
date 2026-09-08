@@ -99,9 +99,13 @@ not actually provided (e.g. "ambulance/EMS run sheet referenced in police
 report but not provided," "physical therapy notes referenced in intake
 notes but not provided").
 
-If a source document was entirely missing from this intake (police report,
-medical records, or intake notes), say so explicitly at the top of this
-section rather than silently working around it.
+If a source document was entirely missing from this intake (police
+report, medical records, or intake notes), say so explicitly at the top
+of this section rather than silently working around it. Treat a source
+explicitly marked not applicable (e.g. "no police report - this is a
+premises/slip-and-fall matter, not a vehicle collision") as satisfied,
+not missing - do not manufacture a follow-up question for a document
+type that would not exist for this kind of incident in the first place.
 
 Do the same for a document that was provided but is only partial - e.g.
 medical records that cover some visits or providers referenced elsewhere
