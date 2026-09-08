@@ -34,8 +34,10 @@ is the machine-readable version of the same pipeline for orchestration.
 | `{{INTAKE_NOTES}}` | Raw intake call/interview notes |
 | `{{POLICE_REPORT}}` | Police/incident report text or OCR output, if any |
 | `{{MEDICAL_RECORDS}}` | Any medical records provided at intake |
+| `{{CLIENT_NAME}}` | Client's full name, for the Step 3 email greeting |
 | `{{ATTORNEY_NAME}}` | Handling attorney, for the Step 3 email signature |
 | `{{FIRM_NAME}}` | Firm name, for the Step 3 email |
+| `{{ENGAGEMENT_CONFIRMED}}` | Whether the firm has formally agreed to represent the client (yes/no) - controls the language Step 3 is allowed to use |
 
 If a document type was not provided, say so explicitly in the workflow run
 rather than omitting the section - Step 1 is required to flag it as a gap.

@@ -53,12 +53,16 @@ Rules:
 - Detail: one to three sentences, factual only, no interpretation, no
   liability language ("failed to," "negligently," "at fault") - state what
   happened, not who is to blame.
-- Source: cite the specific document and location, e.g. "Intake notes, p.1"
-  or "Police report, Narrative section" or "Medical records - Mercy ER,
-  2024-03-02 visit." If two sources describe the same event with conflicting
-  details, include both rows and flag the conflict in the Detail column,
-  e.g. "Client reports light was green; police report states light was
-  disputed - see conflict."
+- Source: cite the specific document and location when the document has one,
+  e.g. "Intake notes, p.1" or "Police report, Narrative section" or "Medical
+  records - Mercy ER, 2024-03-02 visit." Raw text or OCR output frequently
+  carries no page, section, or line markers - when the source document has
+  no such marker, cite the document only (e.g. "Police report" or "Medical
+  records - Mercy ER"). Never invent a page number, section name, or line
+  reference that is not actually present in the source. If two sources
+  describe the same event with conflicting details, include both rows and
+  flag the conflict in the Detail column, e.g. "Client reports light was
+  green; police report states light was disputed - see conflict."
 - Include: the incident itself, all medical treatment and diagnoses, work
   absence, prior/pre-existing conditions mentioned, witness statements,
   insurance contacts, and any communications with the other party or their

@@ -11,7 +11,8 @@
     "MEDICAL_RECORDS": "Medical records provided at intake, if any",
     "CLIENT_NAME": "Client's full name",
     "ATTORNEY_NAME": "Handling attorney's name",
-    "FIRM_NAME": "Firm name"
+    "FIRM_NAME": "Firm name",
+    "ENGAGEMENT_CONFIRMED": "Whether the firm has formally agreed to represent the client (yes/no) - controls Step 3 language"
   },
   "steps": [
     {
@@ -48,7 +49,8 @@
         "CLIENT_NAME",
         "ATTORNEY_NAME",
         "FIRM_NAME",
-        "JURISDICTION"
+        "JURISDICTION",
+        "ENGAGEMENT_CONFIRMED"
       ],
       "outputs": ["CLIENT_EMAIL_DRAFT"],
       "output_sections": ["MATTER SUMMARY", "DOCUMENTS WE NEED FROM YOU", "NEXT STEPS"],

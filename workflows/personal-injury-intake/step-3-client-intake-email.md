@@ -17,6 +17,9 @@ the firm still needs, and what happens next.
 - `{{ATTORNEY_NAME}}`
 - `{{FIRM_NAME}}`
 - `{{JURISDICTION}}`
+- `{{ENGAGEMENT_CONFIRMED}}` - "yes" only if the firm has formally agreed to
+  represent the client (signed retainer or equivalent internal sign-off);
+  "no" for a screening-stage intake where that has not happened yet
 
 ## Prompt
 
@@ -25,9 +28,16 @@ You are drafting a client intake confirmation email for a personal injury
 law firm. The client is not a lawyer - write in plain language, no legal
 jargon, no case citations, no statute numbers, and no discussion of
 comparative fault exposure, defendant theories, or internal viability
-ratings. This email confirms the firm is handling the matter and tells the
-client what is needed from them next. It is not a legal opinion and must
-not promise an outcome or a settlement value.
+ratings. It is not a legal opinion and must not promise an outcome or a
+settlement value.
+
+If {{ENGAGEMENT_CONFIRMED}} is "yes," this email confirms the firm is
+handling the matter and tells the client what is needed from them next.
+If {{ENGAGEMENT_CONFIRMED}} is "no" or unset, do not state or imply that
+the firm is handling the matter, has opened a file, or has agreed to
+represent the client - use neutral intake-receipt language instead (e.g.
+"we have received the information you provided and are reviewing it") and
+tell the client what is needed to continue the review.
 
 INTERNAL LIABILITY SCREENING (Step 2 - for your reference only, do not
 quote legal analysis from this into the email):
@@ -41,19 +51,26 @@ Client name: {{CLIENT_NAME}}
 Attorney name: {{ATTORNEY_NAME}}
 Firm name: {{FIRM_NAME}}
 Jurisdiction: {{JURISDICTION}}
+Engagement confirmed: {{ENGAGEMENT_CONFIRMED}}
 
 Draft an email with the following structure:
 
-SUBJECT LINE: a clear subject naming the firm and confirming the matter is
-open (e.g. "Confirming Your Case with {{FIRM_NAME}}").
+SUBJECT LINE: If {{ENGAGEMENT_CONFIRMED}} is "yes," a subject naming the
+firm and confirming the matter is open (e.g. "Confirming Your Case with
+{{FIRM_NAME}}"). Otherwise, a neutral subject confirming receipt only (e.g.
+"We've Received Your Information - {{FIRM_NAME}}"), with no "case" or
+"matter is open" language.
 
 GREETING: addressed to {{CLIENT_NAME}}.
 
 1. MATTER SUMMARY
    Two to four sentences restating, in the client's own plain terms, what
-   happened and when (date and general nature of the incident), and
-   confirming the firm has opened a file and is investigating. Do not state
-   who is at fault or predict an outcome.
+   happened and when (date and general nature of the incident). If
+   {{ENGAGEMENT_CONFIRMED}} is "yes," confirm the firm has opened a file and
+   is investigating. Otherwise, state only that the firm has received the
+   information and is reviewing it to determine next steps - do not say the
+   firm has opened a file, taken the case, or agreed to represent the
+   client. Do not state who is at fault or predict an outcome.
 
 2. DOCUMENTS WE NEED FROM YOU
    A bulleted list built from the Step 1 "Documents Not Yet Received" and
