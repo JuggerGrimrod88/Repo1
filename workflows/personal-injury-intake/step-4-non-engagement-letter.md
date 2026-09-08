@@ -127,3 +127,10 @@ deadline(s) stated (including any government notice-of-claim deadline),
 which must be independently verified before this letter goes out, not
 relied on solely from Step 2's output. Send promptly; do not let this
 letter sit in review while the filing deadline runs.
+
+Send by a method that proves delivery - certified mail with return
+receipt, or an email/e-service method that generates a delivery or read
+receipt - and keep that proof in the case file. The letter's protection
+against a later "the firm never told me" claim depends on being able to
+show the prospective client actually received the deadline warning before
+the deadline ran, not just that the firm drafted and sent something.
