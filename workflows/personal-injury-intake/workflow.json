@@ -1,0 +1,59 @@
+{
+  "id": "personal-injury-intake-case-screening",
+  "name": "Personal Injury New Matter Intake & Case Screening",
+  "description": "Three-step workflow: fact chronology and gap analysis, liability and case screening, client intake confirmation email.",
+  "audience": "internal-case-team",
+  "requires_attorney_review_before_client_delivery": true,
+  "inputs": {
+    "JURISDICTION": "State/jurisdiction governing the matter",
+    "INTAKE_NOTES": "Raw intake call/interview notes",
+    "POLICE_REPORT": "Police/incident report text or OCR output, if any",
+    "MEDICAL_RECORDS": "Medical records provided at intake, if any",
+    "CLIENT_NAME": "Client's full name",
+    "ATTORNEY_NAME": "Handling attorney's name",
+    "FIRM_NAME": "Firm name"
+  },
+  "steps": [
+    {
+      "id": 1,
+      "name": "Fact Chronology & Gap Analysis",
+      "prompt_file": "step-1-fact-chronology.md",
+      "inputs": ["INTAKE_NOTES", "POLICE_REPORT", "MEDICAL_RECORDS"],
+      "outputs": ["CHRONOLOGY_OUTPUT"],
+      "output_sections": ["FACT CHRONOLOGY", "MISSING FACTS & FOLLOW-UP QUESTIONS"],
+      "distribution": "internal-only"
+    },
+    {
+      "id": 2,
+      "name": "Liability & Case Screening Analysis",
+      "prompt_file": "step-2-liability-analysis.md",
+      "inputs": ["CHRONOLOGY_OUTPUT", "JURISDICTION"],
+      "outputs": ["LIABILITY_ANALYSIS_OUTPUT"],
+      "output_sections": [
+        "POTENTIAL CAUSES OF ACTION",
+        "POTENTIAL DEFENDANTS",
+        "STATUTE OF LIMITATIONS",
+        "COMPARATIVE/CONTRIBUTORY FAULT RISK"
+      ],
+      "distribution": "internal-only",
+      "requires": ["JURISDICTION"]
+    },
+    {
+      "id": 3,
+      "name": "Client Intake Confirmation Email",
+      "prompt_file": "step-3-client-intake-email.md",
+      "inputs": [
+        "LIABILITY_ANALYSIS_OUTPUT",
+        "CHRONOLOGY_OUTPUT",
+        "CLIENT_NAME",
+        "ATTORNEY_NAME",
+        "FIRM_NAME",
+        "JURISDICTION"
+      ],
+      "outputs": ["CLIENT_EMAIL_DRAFT"],
+      "output_sections": ["MATTER SUMMARY", "DOCUMENTS WE NEED FROM YOU", "NEXT STEPS"],
+      "distribution": "client-facing",
+      "requires_review_by": "supervising-attorney"
+    }
+  ]
+}
