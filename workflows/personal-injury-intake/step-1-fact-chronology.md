@@ -97,6 +97,12 @@ If a source document was entirely missing from this intake (police report,
 medical records, or intake notes), say so explicitly at the top of this
 section rather than silently working around it.
 
+Do the same for a document that was provided but is only partial - e.g.
+medical records that cover some visits or providers referenced elsewhere
+in the file (an ER visit, a referral, ongoing physical therapy) but not
+others. Name the specific visit(s) or provider(s) missing rather than
+treating a partial record as complete.
+
 Output only the two sections above, in that order, with no preamble or
 summary before or after.
 ```
