@@ -1,9 +1,10 @@
 {
   "id": "personal-injury-intake-case-screening",
   "name": "Personal Injury New Matter Intake & Case Screening",
-  "description": "Three-step workflow: fact chronology and gap analysis, liability and case screening, client intake confirmation email.",
+  "description": "Fact chronology and gap analysis, liability and case screening, then either a client intake confirmation email or a non-engagement decline letter.",
   "audience": "internal-case-team",
   "requires_attorney_review_before_client_delivery": true,
+  "requires_conflicts_check_before_step_1": true,
   "inputs": {
     "JURISDICTION": "State/jurisdiction governing the matter",
     "INTAKE_NOTES": "Raw intake call/interview notes",
@@ -12,7 +13,8 @@
     "CLIENT_NAME": "Client's full name",
     "ATTORNEY_NAME": "Handling attorney's name",
     "FIRM_NAME": "Firm name",
-    "ENGAGEMENT_CONFIRMED": "Whether the firm has formally agreed to represent the client (yes/no) - controls Step 3 language"
+    "ENGAGEMENT_CONFIRMED": "Whether the firm has formally agreed to represent the client (yes/no) - controls Step 3 language",
+    "DECLINE_REASON": "Optional, Step 4 only. Neutral, non-merits-based reason for declining, or blank"
   },
   "steps": [
     {
@@ -55,7 +57,26 @@
       "outputs": ["CLIENT_EMAIL_DRAFT"],
       "output_sections": ["MATTER SUMMARY", "DOCUMENTS WE NEED FROM YOU", "NEXT STEPS"],
       "distribution": "client-facing",
-      "requires_review_by": "supervising-attorney"
+      "requires_review_by": "supervising-attorney",
+      "branch": "engage"
+    },
+    {
+      "id": 4,
+      "name": "Non-Engagement / Decline Letter",
+      "prompt_file": "step-4-non-engagement-letter.md",
+      "inputs": [
+        "LIABILITY_ANALYSIS_OUTPUT",
+        "CLIENT_NAME",
+        "ATTORNEY_NAME",
+        "FIRM_NAME",
+        "JURISDICTION",
+        "DECLINE_REASON"
+      ],
+      "outputs": ["DECLINE_LETTER_DRAFT"],
+      "output_sections": ["DECISION", "TIME IS LIMITED", "NEXT STEPS"],
+      "distribution": "client-facing",
+      "requires_review_by": "supervising-attorney",
+      "branch": "decline"
     }
   ]
 }

@@ -85,7 +85,13 @@ retention window)
 (e.g. complete treatment history and whether treatment is ongoing, prior
 injuries to the same body part, employment/wage documentation, out-of-pocket
 expenses, property damage estimates, insurance coverage - client's and
-adverse party's - policy limits if known)
+adverse party's - policy limits if known, and any Medicare, Medicaid, or
+ERISA plan liens that may attach to a recovery)
+
+### Client Status
+- Client's date of birth, and whether the client is a minor or under any
+  guardianship or conservatorship - this determines whether a tolling
+  provision applies to the statute of limitations in Step 2.
 
 ### Documents Not Yet Received
 List, by name, every document type referenced in the source material but
