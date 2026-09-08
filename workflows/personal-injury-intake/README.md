@@ -23,24 +23,31 @@ STEP 1: Fact Chronology & Gap Analysis  --------> step-1-fact-chronology.md
 STEP 2: Liability & Case Screening Analysis  ---> step-2-liability-analysis.md
         | (causes of action, defendants, SOL, comparative fault)
         v
-Case team review -> engage or decline?
-        |                         |
-        v                         v
-STEP 3: Client Intake        STEP 4: Non-Engagement /
-Confirmation Email           Decline Letter
-step-3-client-intake-        step-4-non-engagement-
-email.md                     letter.md
-        |                         |
-        v                         v
-   Send to client            Send to prospective client
-   / open matter              (do not open matter)
+Case team review -> still reviewing, taking the matter, or declining?
+        |                              |                    |
+        v                              v                    v
+STEP 3 (ENGAGEMENT_CONFIRMED=no)  STEP 3 (=yes)        STEP 4: Non-
+Client Intake Confirmation Email  same template        Engagement / Decline
+step-3-client-intake-email.md     -----------          Letter
+        |                              |                step-4-non-engagement-
+        v                              v                letter.md
+   Neutral receipt, request      Confirms firm is             |
+   documents, review continues  handling the matter           v
+                                                        Send to prospective
+                                                        client (do not open
+                                                        matter)
 ```
 
 Each step is a standalone prompt template. Run Steps 1 and 2 in order,
 feeding the prior step's full output into the next step's input variables.
-After case team review, run exactly one of Step 3 or Step 4, never both,
-depending on whether the firm is taking the matter. `workflow.json` is the
-machine-readable version of the same pipeline for orchestration.
+After case team review, use Step 3 for both an ongoing screening-stage
+intake (`ENGAGEMENT_CONFIRMED = no`, neutral receipt language) and a
+confirmed engagement (`ENGAGEMENT_CONFIRMED = yes`) - it is the only
+template with a documented path for "still reviewing." Use Step 4 only
+once the firm has made an affirmative decision to decline the matter;
+never run Step 3 and Step 4 for the same matter at the same time.
+`workflow.json` is the machine-readable version of the same pipeline for
+orchestration.
 
 ## Required inputs (collected once, at Step 1)
 

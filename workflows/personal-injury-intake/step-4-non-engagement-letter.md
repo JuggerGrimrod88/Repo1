@@ -9,7 +9,8 @@ on.**
 
 When the firm reviews a matter and decides not to represent the
 prospective client, send clear, prompt, written notice of that decision -
-including a warning about the statute of limitations - so the prospective
+including a warning about the applicable filing deadline, and any shorter
+government notice-of-claim deadline that applies - so the prospective
 client has time to find other counsel. This is a standard malpractice-
 prevention practice: a prospective client who is left believing the firm
 is "still reviewing" past a filing deadline has a real claim against the
@@ -18,8 +19,9 @@ firm even though no attorney-client relationship existed.
 ## Inputs
 
 - `{{LIABILITY_ANALYSIS_OUTPUT}}` - full output from Step 2 (for the
-  statute-of-limitations date only; nothing else from it belongs in this
-  letter)
+  filing deadline only - the statute of limitations AND any shorter
+  government notice-of-claim deadline Step 2 identified; nothing else from
+  it belongs in this letter)
 - `{{CLIENT_NAME}}`
 - `{{ATTORNEY_NAME}}`
 - `{{FIRM_NAME}}`
@@ -50,8 +52,11 @@ relationship has been formed, (2) there is a deadline for filing a claim
 and time is limited, and (3) the prospective client needs to contact
 another attorney promptly.
 
-INTERNAL LIABILITY SCREENING (Step 2 - extract only the statute-of-
-limitations date; ignore everything else in this section):
+INTERNAL LIABILITY SCREENING (Step 2 - extract only the filing deadline(s);
+ignore everything else in this section. If Step 2's STATUTE OF LIMITATIONS
+section identifies a government defendant with a shorter notice-of-claim
+deadline, that deadline is the one that matters most here - it typically
+runs out long before the general statute of limitations does):
 {{LIABILITY_ANALYSIS_OUTPUT}}
 
 Client name: {{CLIENT_NAME}}
@@ -78,18 +83,26 @@ GREETING: addressed to {{CLIENT_NAME}}.
 
 2. TIME IS LIMITED
    State that claims like this are subject to a legal deadline, and that
-   missing it can permanently bar the claim. If the Step 2 output contains
-   a specific calculated filing deadline, state that date, framed as the
+   missing it can permanently bar the claim. If Step 2 identified a
+   government notice-of-claim deadline in addition to the statute of
+   limitations, use that earlier deadline here - it is the one that
+   actually controls, and state it clearly as a separate, shorter deadline
+   rather than only mentioning the general statute of limitations. If a
+   specific calculated deadline is available (notice-of-claim or statute of
+   limitations, whichever is earlier), state that date, framed as the
    firm's understanding based on the information available and not a
    guarantee - e.g. "based on the information you provided, we understand
    the deadline to file a claim may be on or around [date], but you should
-   confirm this with another attorney, since deadlines can be affected by
-   facts we may not be aware of." If the Step 2 output could not calculate
-   a deadline, or expressed uncertainty about the citation or calculation,
-   do not state a date - instead say plainly that the firm is not able to
-   confirm the deadline from the information available, and that this
-   makes it more urgent, not less, to consult another attorney immediately.
-   Urge the client to act quickly - do not soften this section.
+   confirm this with another attorney immediately, since deadlines can be
+   affected by facts we may not be aware of, and some deadlines - such as
+   claims against a government agency - can be much shorter and stricter
+   than a typical filing deadline." If the Step 2 output could not
+   calculate a deadline, or expressed uncertainty about the citation or
+   calculation, do not state a date - instead say plainly that the firm is
+   not able to confirm the deadline from the information available, and
+   that this makes it more urgent, not less, to consult another attorney
+   immediately. Urge the client to act quickly - do not soften this
+   section.
 
 3. NEXT STEPS
    Recommend the client contact another attorney promptly to evaluate the
@@ -109,7 +122,8 @@ above.
 ## Output
 
 A client-ready draft decline letter. Route to the supervising attorney for
-review and any required edits before sending - particularly the statute-
-of-limitations date, which must be independently verified before this
-letter goes out, not relied on solely from Step 2's output. Send promptly;
-do not let this letter sit in review while the filing deadline runs.
+review and any required edits before sending - particularly the filing
+deadline(s) stated (including any government notice-of-claim deadline),
+which must be independently verified before this letter goes out, not
+relied on solely from Step 2's output. Send promptly; do not let this
+letter sit in review while the filing deadline runs.
