@@ -8,7 +8,7 @@
   "inputs": {
     "JURISDICTION": "State/jurisdiction governing the matter",
     "INTAKE_NOTES": "Raw intake call/interview notes",
-    "POLICE_REPORT": "Police/incident report text or OCR output, if any",
+    "POLICE_REPORT": "Police/incident report text or OCR output. Do not leave blank - if the intake affirmatively confirms no such report was generated for this incident, enter an explicit not-applicable note stating that (e.g. 'not applicable - no police or incident report was generated'); a blank value is treated as a missing document, not a confirmed non-existence",
     "MEDICAL_RECORDS": "Medical records provided at intake, if any",
     "CLIENT_NAME": "Client's full name",
     "ATTORNEY_NAME": "Handling attorney's name",

@@ -55,7 +55,7 @@ orchestration.
 |---|---|
 | `{{JURISDICTION}}` | State/jurisdiction governing the matter (client-supplied) |
 | `{{INTAKE_NOTES}}` | Raw intake call/interview notes |
-| `{{POLICE_REPORT}}` | Police/incident report text or OCR output, if any. For a matter that would never generate one (premises, product liability, dog bite, etc.), state that explicitly (e.g. "not applicable - premises matter") rather than leaving it blank - Step 1 treats an explicit not-applicable note as satisfied, not a gap |
+| `{{POLICE_REPORT}}` | Police/incident report text or OCR output. Never leave blank on the assumption the matter type wouldn't have one - confirm with the client whether any police or responding-agency report was made, and enter that confirmed answer (either the report itself, or an explicit note such as "not applicable - confirmed no police or incident report was generated"). A blank or unconfirmed field is treated as a missing document Step 1 will flag as a gap |
 | `{{MEDICAL_RECORDS}}` | Any medical records provided at intake |
 | `{{CLIENT_NAME}}` | Client's full name, for the Step 3 email greeting |
 | `{{ATTORNEY_NAME}}` | Handling attorney, for the Step 3 email signature |
