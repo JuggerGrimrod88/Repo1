@@ -51,6 +51,33 @@ Record the result in the analysis matrix at the bottom of this file.
   doctrine against Medicare directly. Courts have consistently held these
   state doctrines do not override the federal MSP scheme.
 
+### Medicare Advantage (Part C) and Part D
+
+- **Not the same claim, not the same process.** The BCRC/conditional
+  payment process above covers only traditional fee-for-service Medicare.
+  If the client's medical bills were paid by a Medicare Advantage
+  organization (MAO) or a Part D plan sponsor, that plan has its own
+  private recovery right under 42 U.S.C. § 1395w-22(a)(4), enforceable
+  directly against the settlement (confirmed by *In re Avandia Mktg.,
+  Sales Practices & Prods. Liab. Litig.*, 685 F.3d 353 (3d Cir. 2012), and
+  the Medicare Secondary Payer and Certain Civil Monetary Penalties
+  Reform Act of 2012, which requires MAOs to identify an authoritative
+  recovery contact). It is handled directly with the MA or Part D plan or
+  its recovery contractor, not through BCRC.
+- **Identify it at Step 1**: ask the client whether their Medicare
+  coverage is traditional Medicare or a Medicare Advantage/Part D plan
+  (check the insurance card; an MA plan issues its own card with a plan
+  name, not a plain red-white-and-blue Medicare card). Log it as its own
+  row with the MA/Part D plan's name as the lienholder, not as "Medicare."
+- **Perfection**: no perfection act required; the right exists once the
+  plan paid for related care. Confirm the plan's asserted recovery amount
+  in writing before relying on it.
+- **Reduction arguments**: procurement cost reduction and unrelated-charge
+  disputes are commonly negotiated with MA/Part D plans by analogy to the
+  traditional Medicare rule, but the plan is not bound by 42 C.F.R. §
+  411.37 the way BCRC is; get any reduction in writing rather than
+  assuming the statutory formula applies.
+
 ### Medicaid
 
 - **Statutory basis**: State Medicaid statute implementing 42 U.S.C. §
@@ -173,6 +200,33 @@ Record the result in the analysis matrix at the bottom of this file.
   carrier's full interest. Get the carrier's written confirmation of any
   future credit amount and how it will be applied before treating the
   lien as fully resolved, and disclose it to the client in Step 5.
+
+### Hospital statutory lien
+
+- **Statutory basis**: a state hospital lien statute, where the
+  jurisdiction has one, giving a treating hospital a direct lien against a
+  third-party recovery for the reasonable value of care related to the
+  injury. This is distinct from, and can exist alongside, a private
+  health insurer's subrogation claim for the same care; confirm which one
+  (or both) is actually being asserted.
+- **Perfection**: strictly statutory and strictly construed against the
+  hospital. Typical requirements include filing a notice of lien with the
+  county clerk or recorder within a fixed window after the patient's
+  discharge, and serving a copy on the patient, the tortfeasor, and any
+  liability insurer known to the hospital. Pull the recorded lien and
+  check the filing date and required content against the state statute;
+  a hospital that missed the filing deadline or the service requirement
+  frequently has no perfected lien at all, only an unsecured billing
+  claim.
+- **Reduction arguments**: many hospital lien statutes cap the lien at a
+  percentage of the total recovery, or require reduction by the
+  hospital's pro rata share of attorney fees and costs, similar to the
+  workers' comp formula. Some states also bar the hospital from
+  recovering both the lien and separately billing the client's own health
+  insurer for the same care (coordinate with the private health insurer
+  entry on the same date of service to avoid overpayment). Where the lien
+  was not properly perfected, the correct move is to dispute
+  enforceability entirely, not merely to negotiate the amount.
 
 ### VA and TRICARE
 

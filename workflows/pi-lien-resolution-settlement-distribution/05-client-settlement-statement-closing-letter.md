@@ -51,7 +51,19 @@ distributed.
 |---|---|
 | Total settlement received | $[gross] |
 | Attorney's fee ([%] per your fee agreement) | $[fee] |
-| Case costs | $[costs] |
+| Case costs (see itemization below) | $[costs] |
+
+**Case costs, itemized:**
+
+| Cost item | Amount |
+|---|---|
+| Filing fees | $[amount] |
+| Deposition/transcript costs | $[amount] |
+| Expert witness fees | $[amount] |
+| Medical record retrieval fees | $[amount] |
+| Mediation/ADR fees | $[amount] |
+| Other (itemize) | $[amount] |
+| **Total costs** | $[costs] |
 
 **Liens paid on your behalf:**
 

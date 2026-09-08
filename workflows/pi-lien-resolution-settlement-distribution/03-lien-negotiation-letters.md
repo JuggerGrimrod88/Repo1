@@ -55,6 +55,83 @@ narrative attachment to that submission, not a replacement for it).
 > Sincerely,
 > [Attorney Name]
 
+### Template: Medicare Advantage / Part D plan
+
+Use this instead of the traditional Medicare template above when the
+client's coverage was a Medicare Advantage (Part C) or Part D plan, not
+fee-for-service Medicare. Do not send this to BCRC; send it to the plan or
+its recovery contractor directly.
+
+> [Firm Letterhead]
+>
+> [Date]
+>
+> [MA/Part D Plan or Recovery Contractor Name]
+> [Address]
+>
+> Re: [Client Name] — Member ID [___] — Recovery File [___]
+>
+> Dear Sir or Madam:
+>
+> This office represents [Client Name] in connection with a personal
+> injury claim arising from an incident on [date]. The claim has settled
+> for a gross amount of $[gross settlement]. We understand [Plan Name]
+> paid for care related to this injury and asserts a recovery right under
+> 42 U.S.C. § 1395w-22(a)(4).
+>
+> Please provide an itemized statement of the amount claimed so that we
+> may confirm it is causally related to this injury. [If applicable:] The
+> following charges are unrelated and should be removed: [list disputed
+> items].
+>
+> We request a reduction reflecting the cost of obtaining this recovery.
+> Attorney fees and costs in this matter total $[fees + costs] against
+> the gross settlement of $[gross], a ratio of [%]. Please confirm the
+> plan's final payoff figure in writing before we distribute settlement
+> proceeds.
+>
+> Sincerely,
+> [Attorney Name]
+
+### Template: hospital statutory lien
+
+> [Firm Letterhead]
+>
+> [Date]
+>
+> [Hospital Name / Lien Recovery Department]
+> [Address]
+>
+> Re: [Client Name] — Recorded Lien No. [___], filed [date], [County]
+> County Clerk
+>
+> Dear Sir or Madam:
+>
+> This office represents [Client Name] in connection with a personal
+> injury claim arising from an incident on [date]. The claim has settled
+> for a gross amount of $[gross settlement]. Your facility has recorded a
+> lien in the amount of $[claimed amount] under [cite state hospital lien
+> statute].
+>
+> [If perfection is in question:] We have reviewed the recorded lien and
+> note [describe defect: late filing, missing service on required
+> parties, missing required content] under [cite statute]. Please advise
+> whether the facility contends the lien was properly perfected.
+>
+> [If perfection is not disputed:] Under [cite statute], the lien is
+> subject to reduction to [cap/formula, e.g., a stated percentage of
+> recovery, or a pro rata share of attorney fees and costs]. Applying
+> that formula, the adjusted lien amount is $[calculated amount]. Please
+> also confirm whether this claim overlaps with any amount separately
+> billed to the client's health insurer for the same dates of service, so
+> that the same charges are not paid twice.
+>
+> Please confirm the lien's enforceability and, if applicable, the
+> adjusted amount in writing so that distribution can proceed.
+>
+> Sincerely,
+> [Attorney Name]
+
 ### Template: Medicaid (state agency or recovery contractor)
 
 > [Firm Letterhead]

@@ -2,14 +2,37 @@
 
 ## Internal use
 
-Do not calculate this until every lien in the Step 1/2 table has a **final
-written payoff figure**, not a claimed amount. A distribution built on a
-claimed amount and later reduced can create a shortfall the firm has to
-cover; a distribution built on a claimed amount that is later increased can
-create a trust account deficiency. Hold back a reserve for any lien still
-unresolved rather than guessing at its final number.
+Do not calculate the final distribution until every lien in the Step 1/2
+table has a **final written payoff figure**, not a claimed amount. A
+distribution built on a claimed amount and later reduced can create a
+shortfall the firm has to cover; a distribution built on a claimed amount
+that is later increased can create a trust account deficiency.
 
-### Calculation worksheet
+If one or more liens remain genuinely disputed while the rest of the case
+is resolved, do not hold the client's entire recovery hostage to the
+holdout. Trust accounting rules generally require prompt delivery of funds
+the client is undisputedly entitled to; only the disputed lien amount stays
+in reserve. Use the interim distribution worksheet below for that
+situation, then true up with the final worksheet once the last lien
+resolves.
+
+### Interim distribution when a lien is still disputed
+
+| Line | Description | Amount |
+|---|---|---|
+| A | Gross settlement recovery | $[amount] |
+| B | Attorney fee | $[amount] |
+| C | Case costs advanced | $[amount] |
+| D | Net recovery before liens (A − B − C) | $[amount] |
+| E1 | Lien payoffs already finalized in writing | $[amount] |
+| E2 | **Reserve**: highest amount any still-disputed lienholder has claimed in writing (hold in trust, do not use the firm's estimate of the likely reduced figure) | $[amount] |
+| F | **Interim amount released to client now (D − E1 − E2)** | $[amount] |
+
+When the disputed lien resolves, release any remainder of the E2 reserve
+above the final payoff to the client and true up against the full
+Calculation worksheet below.
+
+### Calculation worksheet (final, once every lien has a written payoff)
 
 | Line | Description | Amount |
 |---|---|---|

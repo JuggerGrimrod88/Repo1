@@ -29,7 +29,9 @@ Step 4 is reconciled against every lienholder's final written payoff.
 - Get the plan document or Summary Plan Description before you argue an
   ERISA reduction. The reduction argument you can make depends entirely on
   the plan's actual reimbursement language, not on general ERISA principles.
-- Hold the disputed portion of any contested lien in trust. Never distribute
-  a client's net recovery around an unresolved lien.
+- Hold only the disputed amount of a contested lien in trust as a reserve.
+  Undisputed client funds must be delivered promptly under the trust
+  accounting rules; do not hold the client's entire net recovery hostage to
+  one unresolved lien. See the reserve line in Step 4.
 - Client gets the plain-language version at every step where one exists.
   The internal version stays in the file.

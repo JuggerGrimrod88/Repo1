@@ -39,8 +39,11 @@ the raw claimed amount.
 | [Private Health Insurer] | Private health | $[amount] | Subrogation file # [___] | [contact] | [phone] | [email/fax] | [address] | [date] | [status] |
 | [Workers' Comp Carrier] | Workers' comp | $[amount] | Claim # [___] | [contact] | [phone] | [email/fax] | [address] | [date] | [status] |
 
-Type field must be one of: Medicare, Medicaid, ERISA, private health,
-workers' comp, hospital statutory lien, VA/TRICARE, other (specify).
+Type field must be one of: Medicare, Medicare Advantage/Part D, Medicaid,
+ERISA, private health, workers' comp, hospital statutory lien, VA/TRICARE,
+other (specify). Medicare Advantage and Part D plans are not traditional
+Medicare; log them under the plan's own name, not "Medicare" (see Step 2
+for why the recovery process is different).
 
 ### Verification checklist before moving to Step 2
 
