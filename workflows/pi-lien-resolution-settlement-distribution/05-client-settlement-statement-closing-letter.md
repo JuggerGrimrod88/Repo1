@@ -95,6 +95,11 @@ Client signature: _______________________ Date: __________
 >   a tax professional about how this settlement affects your taxes.
 > - [If applicable] [Any Medicare set-aside, structured settlement, or
 >   ongoing lien-dispute note specific to this case.]
+> - [If applicable] Your workers' compensation carrier has a credit of
+>   $[amount] against your future benefits under this settlement. This
+>   means the carrier may reduce or suspend future indemnity or medical
+>   payments until that credit is used up. [Explain the specific
+>   mechanics for this client's state and claim.]
 > - We will keep your file for [retention period per firm policy and
 >   state bar rules], after which it will be closed out per our standard
 >   file retention policy. Contact us before then if you would like a copy

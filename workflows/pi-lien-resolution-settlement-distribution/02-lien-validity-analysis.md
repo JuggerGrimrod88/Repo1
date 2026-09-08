@@ -20,7 +20,25 @@ Record the result in the analysis matrix at the bottom of this file.
   - Procurement cost reduction under 42 C.F.R. § 411.37: Medicare's
     recovery is automatically reduced by its pro rata share of attorney
     fees and litigation costs. This is not a negotiated concession; it is
-    a formula. Calculate it and apply it.
+    a formula. Calculate it and apply it. Two different formulas apply
+    depending on the relationship between the conditional payment amount
+    and the gross settlement:
+    - **Standard case** (conditional payments are less than the gross
+      settlement), 42 C.F.R. § 411.37(a)-(b): reduce the conditional
+      payment amount by Medicare's pro rata share of procurement costs,
+      i.e., conditional payments × (1 − procurement cost ratio), where the
+      procurement cost ratio is total fees and costs divided by the gross
+      settlement.
+    - **Special rule** (conditional payments equal or exceed the gross
+      settlement), 42 C.F.R. § 411.37(c): do not apply the ratio to the
+      conditional payment amount; that overstates Medicare's recovery and
+      can exceed the settlement itself. Instead, Medicare's recovery is
+      capped at gross settlement minus total procurement costs. Example:
+      a $10,000 settlement, $100,000 in conditional payments, and $3,333
+      in procurement costs (one-third) yields a Medicare recovery of
+      $6,667 ($10,000 − $3,333), not $66,667 from applying the standard
+      ratio to $100,000. Check which formula applies before sending any
+      demand or reduction request.
   - Dispute unrelated charges on the Conditional Payment Letter (CPL).
     Every CPL contains claims Medicare paid that are not related to the
     injury. Get the itemized CPL and strip out anything not causally
@@ -81,12 +99,24 @@ Record the result in the analysis matrix at the bottom of this file.
     identifiable funds still in the claimant's possession or control.
   - *US Airways, Inc. v. McCutchen*, 569 U.S. 88 (2013): the common fund
     doctrine and made-whole doctrine are default equitable rules that
-    apply only when the plan document is silent. If the plan's SPD
-    contains clear reimbursement and anti-common-fund language, that
-    language controls and displaces both doctrines.
+    apply only when the plan document is silent. If the governing plan
+    document contains clear reimbursement and anti-common-fund language,
+    that language controls and displaces both doctrines.
+  - *Montanile v. Bd. of Trs. of the Nat'l Elevator Indus. Health Benefit
+    Plan*, 577 U.S. 136 (2016): the plan's equitable lien is extinguished
+    only when the participant has actually dissipated the settlement
+    funds on nontraceable items (general assets, ordinary living
+    expenses). Merely depositing funds into a mixed account is not itself
+    dissipation; tracing rules (e.g., lowest intermediate balance) still
+    apply. Do not treat commingling alone as a defense.
 - **Perfection**: the plan must have express subrogation/reimbursement
-  language in the governing plan document, not just the SPD summary. Get
-  the actual plan document, not only the certificate booklet. No plan
+  language in the governing plan document itself, not merely the Summary
+  Plan Description (SPD). An SPD is a disclosure document and is not
+  automatically part of the governing plan terms; broader or narrower
+  reimbursement language in an SPD does not control unless it is shown to
+  be, or is consistent with, the actual plan document. Get the governing
+  plan document, not only the SPD or certificate booklet, before
+  conceding or contesting the plan's reimbursement right. No plan
   document, no enforceable equitable lien; this is a genuine defense, not
   a delay tactic.
 - **Reduction arguments**: Read the plan document first. If it is silent
@@ -94,9 +124,12 @@ Record the result in the analysis matrix at the bottom of this file.
   If it has clear reimbursement language displacing those doctrines, your
   reduction argument shifts to: (1) attorney fee/cost sharing under the
   plan's own terms if any exist, (2) disputing the traceable fund amount
-  under Knudson if settlement proceeds have been commingled or already
-  partially spent, (3) equitable defenses (unjust enrichment, unclean
-  hands) on the specific facts.
+  under Knudson and Montanile only where settlement proceeds have been
+  genuinely dissipated into nontraceable assets, not merely commingled,
+  (3) independently supported equitable defenses tied to specific
+  misconduct (fraud, mistake, breach of fiduciary duty) rather than a
+  general unjust-enrichment theory, which McCutchen forecloses once valid
+  plan terms displace the default equitable rules.
 
 ### Private health insurance (fully insured, non-ERISA, or state-regulated)
 
@@ -132,6 +165,36 @@ Record the result in the analysis matrix at the bottom of this file.
   recovery, after full lien repayment, would be inadequate given the
   severity of the injury. Apply the statutory formula first; it usually
   does the most work with the least friction.
+- **Future credit**: many states give the carrier a credit against future
+  indemnity and medical benefits equal to the client's net third-party
+  recovery (net of the carrier's own paid-to-date lien), so the carrier
+  can suspend or reduce future benefits until that credit is exhausted.
+  Confirming only the reduced past-benefits payoff does not resolve the
+  carrier's full interest. Get the carrier's written confirmation of any
+  future credit amount and how it will be applied before treating the
+  lien as fully resolved, and disclose it to the client in Step 5.
+
+### VA and TRICARE
+
+- **Statutory basis**: the United States has a statutory right of recovery
+  for the reasonable value of care furnished at VA expense under 38
+  U.S.C. § 1729, and a separate recovery right for care furnished under
+  TRICARE under 10 U.S.C. § 1095. Both are federal recovery rights, not
+  state-law liens, and are not subject to state common fund, made-whole,
+  or anti-subrogation law.
+- **Perfection**: no perfection act is required from the agency; the
+  right exists by statute once the VA or TRICARE paid for care related to
+  the injury. Notify the VA regional counsel or the TRICARE recovery
+  contractor (currently administered through the Defense Health Agency)
+  promptly so the claim can be validated and a payoff figure obtained
+  before settlement.
+- **Reduction arguments**: request the itemized charges and dispute any
+  unrelated care, the same as with a Medicare CPL. Some VA facilities and
+  the TRICARE recovery process will negotiate a reduction reflecting
+  litigation risk and procurement costs, but neither program has a
+  regulatory procurement-cost formula equivalent to 42 C.F.R. § 411.37;
+  treat any reduction as negotiated, not automatic, and get it in writing
+  before relying on it in the Step 4 distribution worksheet.
 
 ### Analysis matrix
 

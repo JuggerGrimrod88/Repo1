@@ -35,11 +35,19 @@ narrative attachment to that submission, not a replacement for it).
 > related period].
 >
 > Second, pursuant to 42 C.F.R. § 411.37, Medicare's recovery must be
-> reduced by its pro rata share of procurement costs. Attorney fees and
-> costs in this matter total $[fees + costs] against a gross recovery of
-> $[gross], a ratio of [%]. Applying that ratio to the conditional payment
-> amount of $[claimed amount, after removing disputed items] yields an
-> adjusted reimbursement obligation of $[calculated amount].
+> reduced for procurement costs. Attorney fees and costs in this matter
+> total $[fees + costs] against a gross settlement of $[gross].
+> [If the conditional payment amount, after removing disputed items, is
+> less than the gross settlement, use the standard ratio formula under §
+> 411.37(a)-(b):] The procurement cost ratio is [%]. Applying that ratio
+> to the conditional payment amount of $[claimed amount, after removing
+> disputed items] yields an adjusted reimbursement obligation of
+> $[calculated amount].
+> [If the conditional payment amount equals or exceeds the gross
+> settlement, use the special rule under § 411.37(c) instead — do not
+> apply the ratio to the conditional payment amount:] Medicare's recovery
+> is limited to the gross settlement less total procurement costs:
+> $[gross] − $[fees + costs] = $[calculated amount].
 >
 > Please confirm the revised final demand amount in writing. We are
 > prepared to remit payment promptly upon receipt of that confirmation.
@@ -184,8 +192,48 @@ narrative attachment to that submission, not a replacement for it).
 > settlement. Applying that formula, the adjusted lien amount is
 > $[calculated amount].
 >
-> Please confirm the adjusted lien figure in writing so that distribution
-> can proceed.
+> Please also confirm in writing whether the carrier is asserting a
+> credit against future indemnity or medical benefits under [cite state
+> statute], and if so, the amount of that credit and how it will be
+> applied to future benefit payments.
+>
+> Please confirm the adjusted lien figure and any future credit in
+> writing so that distribution can proceed.
+>
+> Sincerely,
+> [Attorney Name]
+
+### Template: VA / TRICARE
+
+> [Firm Letterhead]
+>
+> [Date]
+>
+> [VA Regional Counsel / TRICARE Recovery Contractor]
+> [Address]
+>
+> Re: [Client Name] — [VA Claim No. / TRICARE Recovery File] [___]
+>
+> Dear Sir or Madam:
+>
+> This office represents [Client Name] in connection with a personal
+> injury claim arising from an incident on [date]. The claim has settled
+> for a gross amount of $[gross settlement]. We understand [the
+> Department of Veterans Affairs / TRICARE] furnished care related to
+> this injury and has, or may assert, a recovery right under [38 U.S.C. §
+> 1729 / 10 U.S.C. § 1095].
+>
+> Please provide an itemized statement of charges related to this injury
+> so that we may confirm the amount is causally related and request
+> validation of the claim before distribution. [If applicable:] The
+> following charges are unrelated to this injury and should be removed:
+> [list disputed items].
+>
+> We further request consideration of a reduction reflecting the
+> litigation risk and the cost of obtaining this recovery, totaling
+> $[fees + costs] against the gross settlement of $[gross]. Please
+> confirm the final payoff amount in writing before we distribute
+> settlement proceeds.
 >
 > Sincerely,
 > [Attorney Name]

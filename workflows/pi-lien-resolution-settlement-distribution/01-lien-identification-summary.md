@@ -63,9 +63,12 @@ Subject: Who is claiming money back from your settlement
 
 We identified the following organizations that paid for some of your
 medical care and have a legal right to be paid back out of your
-settlement. This is normal in every injury case. It does not reduce what
-you will ultimately receive dollar for dollar. We negotiate each of these
-down before your money is distributed.
+settlement. This is normal in every injury case. Each of these amounts
+will be paid out of your settlement before you receive your share, so we
+seek a reduction from every lienholder where the law allows one. Some
+lienholders, such as Medicare or an employer health plan with strong
+reimbursement rights, may not be reducible by much or at all. We will
+tell you plainly which is which as each one is resolved.
 
 | Who they are | What they paid for | Amount they are claiming |
 |---|---|---|
