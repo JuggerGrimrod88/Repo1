@@ -73,6 +73,11 @@ For each cause of action listed above, state:
 - If any date needed to calculate the deadline is a "Missing Fact" from
   Step 1, state the deadline as "cannot be calculated until [specific
   missing fact] is confirmed" rather than guessing.
+- State a citation or a calculated deadline only when confident in it. When
+  not confident in a specific statute number, citation, or tolling rule for
+  {{JURISDICTION}}, say so explicitly (e.g. "citation uncertain - verify
+  against the current {{JURISDICTION}} statute before relying on this
+  date") rather than presenting an uncertain answer as settled.
 
 ## COMPARATIVE/CONTRIBUTORY FAULT RISK
 
